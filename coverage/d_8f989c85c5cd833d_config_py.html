@@ -62,10 +62,10 @@
         <p class="text">
             <a id="prevFileLink" class="nav" href="d_8f989c85c5cd833d___init___py.html">&#xab; prev</a> &nbsp; &nbsp;
             <a id="indexLink" class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
-            <a id="nextFileLink" class="nav" href="d_8f989c85c5cd833d_exceptions_py.html">&#xbb; next</a>
+            <a id="nextFileLink" class="nav" href="d_b3f3dc7a0c3d97be___init___py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.3">coverage.py v7.2.3</a>,
-            created at 2023-04-19 15:47 +0000
+            created at 2023-04-26 15:25 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -498,7 +498,7 @@
     <p class="run"><span class="n"><a id="t416" href="#t416">416</a></span><span class="t">        <span class="nam">loader</span><span class="op">.</span><span class="nam">add_constructor</span><span class="op">(</span><span class="str">'!INCLUDE'</span><span class="op">,</span> <span class="nam">self</span><span class="op">.</span><span class="nam">_yaml_include</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t417" href="#t417">417</a></span><span class="t">        <span class="key">return</span> <span class="nam">loader</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t418" href="#t418">418</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t419" href="#t419">419</a></span><span class="t"><span class="key">class</span> <span class="nam">F90Config</span><span class="op">(</span><span class="nam">Config</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t419" href="#t419">419</a></span><span class="t"><span class="key">class</span> <span class="nam">F90Config</span><span class="op">(</span><span class="nam">Config</span><span class="op">)</span><span class="op">:</span> <span class="com">#pylint: disable=unused-variable</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t420" href="#t420">420</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t421" href="#t421">421</a></span><span class="t">    <span class="str">''' Concrete class to handle Fortran namelist files. '''</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t422" href="#t422">422</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -532,7 +532,7 @@
     <p class="run"><span class="n"><a id="t450" href="#t450">450</a></span><span class="t">        <span class="key">with</span> <span class="nam">open</span><span class="op">(</span><span class="nam">output_path</span><span class="op">,</span> <span class="str">'w'</span><span class="op">,</span> <span class="nam">encoding</span><span class="op">=</span><span class="str">"utf-8"</span><span class="op">)</span> <span class="key">as</span> <span class="nam">file_name</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t451" href="#t451">451</a></span><span class="t">            <span class="nam">f90nml</span><span class="op">.</span><span class="nam">Namelist</span><span class="op">(</span><span class="nam">nml</span><span class="op">)</span><span class="op">.</span><span class="nam">write</span><span class="op">(</span><span class="nam">file_name</span><span class="op">,</span> <span class="nam">sort</span><span class="op">=</span><span class="key">False</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t452" href="#t452">452</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t453" href="#t453">453</a></span><span class="t"><span class="key">class</span> <span class="nam">INIConfig</span><span class="op">(</span><span class="nam">Config</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t453" href="#t453">453</a></span><span class="t"><span class="key">class</span> <span class="nam">INIConfig</span><span class="op">(</span><span class="nam">Config</span><span class="op">)</span><span class="op">:</span> <span class="com">#pylint: disable=unused-variable</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t454" href="#t454">454</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t455" href="#t455">455</a></span><span class="t">    <span class="str">''' Concrete class to handle INI config files. '''</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t456" href="#t456">456</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -590,7 +590,7 @@
     <p class="run"><span class="n"><a id="t508" href="#t508">508</a></span><span class="t">                <span class="key">for</span> <span class="nam">key</span><span class="op">,</span> <span class="nam">value</span> <span class="key">in</span> <span class="nam">self</span><span class="op">.</span><span class="nam">data</span><span class="op">.</span><span class="nam">items</span><span class="op">(</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t509" href="#t509">509</a></span><span class="t">                    <span class="nam">file_name</span><span class="op">.</span><span class="nam">write</span><span class="op">(</span><span class="str">f'{key}={value}\n'</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t510" href="#t510">510</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="run"><span class="n"><a id="t511" href="#t511">511</a></span><span class="t"><span class="key">class</span> <span class="nam">FieldTableConfig</span><span class="op">(</span><span class="nam">YAMLConfig</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t511" href="#t511">511</a></span><span class="t"><span class="key">class</span> <span class="nam">FieldTableConfig</span><span class="op">(</span><span class="nam">YAMLConfig</span><span class="op">)</span><span class="op">:</span> <span class="com">#pylint: disable=unused-variable</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t512" href="#t512">512</a></span><span class="t">    <span class="str">''' This class exists to write out a field_table format given</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t513" href="#t513">513</a></span><span class="t"><span class="str">    that its configuration has been set by an input YAML file. '''</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t514" href="#t514">514</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -647,10 +647,10 @@
         <p>
             <a id="prevFileLink" class="nav" href="d_8f989c85c5cd833d___init___py.html">&#xab; prev</a> &nbsp; &nbsp;
             <a id="indexLink" class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
-            <a id="nextFileLink" class="nav" href="d_8f989c85c5cd833d_exceptions_py.html">&#xbb; next</a>
+            <a id="nextFileLink" class="nav" href="d_b3f3dc7a0c3d97be___init___py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.2.3">coverage.py v7.2.3</a>,
-            created at 2023-04-19 15:47 +0000
+            created at 2023-04-26 15:25 +0000
         </p>
     </div>
 </footer>
